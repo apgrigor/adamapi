@@ -2,21 +2,15 @@
 
 ### Versioning
 
-1. adamapi==2.2.2.2, This pachage works only with ADAMCORE 2.
+1. adamapi==2.2.2.3, This pachage works only with ADAMCORE 2.
 
 ## Requirements
 
+This package requires python>=3.6.
+
 ```bash
-sudo apt-get install python3-venv python3-gdal gdal-bin
-```
-## Install with pip
-```bash
-VENVNAME="adamapi"
-python3 -m venv "${VENVNAME}"
-source "${VENVNAME}/bin/activate";
-python3 -m pip install --upgrade pip;
+python3 -m pip install --upgrade pip
 pip install adamapi
-ln -s "/usr/lib/python3/dist-packages/osgeo" "${VENVNAME}/lib/python3.8/site-packages/osgeo"
 ```
 
 # API DEFINITIONS
