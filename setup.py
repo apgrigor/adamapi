@@ -28,7 +28,7 @@ with open("README.md","r") as fh:
 
 setuptools.setup(
         name="adamapi",
-        version="2.2.2.2",
+        version="2.2.2.3",
         author="MEEO s.r.l.",
         author_email="info@meeo.it",
         description="Python Adam API",
@@ -39,18 +39,7 @@ setuptools.setup(
         package_dir={"":"src"},
         install_requires=[
             'requests >= 2.22.0',
-            'imageio == 2.9.0',
             'tqdm == 4.62.3',
-            'numpy == 1.21.2',
-            'python-dateutil == 2.8.2',
-            "certifi == 2021.5.30",
-            "charset-normalizer == 2.0.6",
-            "cycler == 0.10.0",
-            "idna == 3.2",
-            "kiwisolver == 1.3.2",
-            "pyparsing == 2.4.7",
-            "six == 1.16.0",
-            "urllib3 ==1.26.7"
             ],
         classifiers=[
             "Programming Language :: Python :: 3",

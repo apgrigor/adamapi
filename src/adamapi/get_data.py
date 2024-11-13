@@ -24,13 +24,10 @@ SOFTWARE.
 
 import os
 import time
-from osgeo import ogr
-import sys
 import json
 from tqdm import tqdm
 import errno
 import requests
-import zipfile
 from datetime import datetime
 import re
 import logging
